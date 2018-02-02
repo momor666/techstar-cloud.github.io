@@ -205,11 +205,27 @@
                 </span>
             </a>
         </div>
+        <div class="grid">
+          <div class="unit-1-3 site-header">
+            <div class="box">
+              <h2><a href="https://github.com/techstar-cloud">Techstar</a></h2>
+              <p class="stats">
+                <a href="https://github.com/techstar-cloud/repositories"><b id="num-repos">View</b> public repos</a>
+                <br>
+                <a href="https://gist.github.com/techstar-cloud"><b id="num-gists">View</b> public gists</a>
+              </p>
+              <h3>Recently updated</h3>
+              <ol id="updated-repos"></ol>
+            </div>
+          </div>
 
+          <div class="site-content" id="repos"></div>
+        </div>
     </main>
 
 </body>
 <script src="/public/particles.js"></script>
+<script src="/public/app.js"></script>
 <script>
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
     particlesJS.load('particles-js', 'public/particles.json', function() {
